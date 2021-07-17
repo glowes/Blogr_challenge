@@ -1,0 +1,115 @@
+body{
+	margin:0px 0.5px;
+	padding:0px;
+	font-family: Ubuntu;
+	text-align: center;
+	font-size:1em;
+}
+
+
+
+/*HEADER*/
+h1{font-size: 3em;font-weight: normal;}
+
+.mainContainer{
+		display:grid;
+		grid-template-rows: 2.5fr auto 2fr;
+		grid-template-columns: 1fr;		
+		gap:0.5%;
+}
+
+
+.mainContainer header{
+	display: flex;
+	flex-direction: column;
+	color:white;
+	background-color:#FD565D;
+	border-bottom-left-radius: 100px;
+	font-weight:500;
+}
+
+.mainContainer header div:nth-child(1) {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+/*
+header div{j}*/
+header div h1{font-weight:500;}
+header button{font-weight: bold;color:#FD565D;}
+header ul {display: inline;}
+header ul button{margin:20px;padding:20px;border:0;border-radius: 100px}
+/*login and register buttons to be more align with the other ul elements*/
+header .rgbttn{margin:0;}
+header .rgbttn  li:nth-child(1) button,header .mrbttn  li:nth-child(2) button{
+			background-color:#FD565D;
+			color:white;
+			 }
+header button:hover{color:white;}
+
+button{cursor:pointer;}
+header ul li{list-style: none;display: inline;margin:10px;}
+
+
+
+
+
+
+
+/*SECTION ZONE */
+/*********************************************/
+
+.sections_content{margin-top: 5%;}
+
+section {font-size: 1em;color:#444;margin:30px 0px;}
+section p {font-size: 1em;color: #888;text-align: justify;}
+section h2{font-size: 2em;font-weight:500;}
+section h3{font-size: 1.8em;font-weight:500;}
+section img {width:800px;height: 800px;align-content:center;}
+
+
+/*FIRST-SECOND-THIRD SECTION*/ /**/
+ /******************************************/
+.containerSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.containerSection_info {	flex-shrink:1; 
+					align-self: center;
+					padding:50px;
+					width:30%;
+					margin:auto;
+				}
+
+.second{
+		background-color: #515170;
+		border-top-right-radius: 100px;
+		border-bottom-left-radius: 100px;
+		color:white;
+		height:24%;
+		margin-bottom:8%;
+
+}
+
+.second p {color:#bbb;}
+
+
+footer{
+	background-color: #1C1C26;
+	color:white;
+	padding:30px;
+	border-top-right-radius:100px; 
+}
+
+
+footer img {width: 100px;height: 50px;}
+footer div {display:flex; flex-direction: row; justify-content: space-around;}
+
+footer ul li {list-style: none;color:#bbb;}
+footer div ul li:nth-child(1){color:white;margin-bottom:30px;}
+footer div ul li {margin-top: 15px;}
