@@ -47,7 +47,7 @@ header .rgbttn  li:nth-child(1) button,header .mrbttn  li:nth-child(2) button{
 			background-color:#FD565D;
 			color:white;
 			 }
-header button:hover{color:white;}
+header button:hover{color:white;background-color:#FD565D;}
 
 button{cursor:pointer;}
 header ul li{list-style: none;display: inline;margin:10px;}
